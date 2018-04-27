@@ -13,7 +13,7 @@ if (isset($_GET['max'])) {
 } else {
 	define('MAX_RESULT_FEED', 50);
 }
-$blogger_feed_url = 'https://mankoin.blogspot.com/feeds/posts/default?q=%s&alt=rss&max-results=%d';
+$blogger_feed_url = 'https://gendol-online.blogspot.com/feeds/posts/default?q=%s&alt=rss&max-results=%d';
 $feed_url = sprintf($blogger_feed_url, $tags, MAX_RESULT_FEED);
 $feed = new DOMDocument();
 
